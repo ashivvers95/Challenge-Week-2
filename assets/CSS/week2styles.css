@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-color: #f8efba;
+  --second-color: #f97f51;
+  --third-color: #b33771;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: var(--third-color);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--first-color);
+  position: -webkit-sticky;
+  position: sticky;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+
+header h1 {
+  font-size: 2.5vw;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--second-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  padding: 10px 20px;
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+header nav ul li a:hover {
+  background: var(--second-color);
+  color: var(--third-color);
+  border-radius: 10px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.be-a-hero {
+  background-image: url("../images/il_1140xN.1415371599_hayo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hire-me {
+  width: 35%;
+  text-align: left;
+  margin: 3.5%;
+  color: var(--third-color);
+  font-size: 18px;
+  line-height: 1.2;
+  background-color: rgba(249, 127, 81, 0.7);
+  border-radius: 10px;
+}
+
+.hire-me h2 {
+  font-style: initial;
+  font-size: 55px;
+  color: var(--first-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hire-me p {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: var(--first-color);
+}
+
+.intro {
+  background-color: var(--first-color);
+}
+
+.intro h2 {
+  font-size: 2.2vw;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--second-color);
+  border-bottom: var(--third-color) dotted 5px;
+  padding-bottom: 5px;
+  margin: 0 auto 10px auto;
+  width: 15%;
+}
+
+.intro p {
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+}
+
+.works h2 {
+  font-size: 2.2vw;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--second-color);
+  border-bottom: var(--third-color) dotted 5px;
+  padding-bottom: 5px;
+  margin: 0 auto 35px auto;
+  width: 15%;
+}
+
+.projects {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    border: 5px solid var(--third-color);
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.projects img {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+  background-color: rgba(248, 239, 186, 0.8);
+}
+
+.contact h2 {
+  font-size: 2.2vw;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--second-color);
+  border-bottom: var(--third-color) dotted 5px;
+  padding-bottom: 5px;
+  margin: 0 auto 10px auto;
+  width: 15%;
+}
+
+.contact p {
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+}
+
+
+.contact address {
+  font-size: 20px;
+  font-style: inherit;
+  text-align: center;
+  color: var(--second-color);
+}
+
+footer {
+  background-color: var(--second-color);
+}
