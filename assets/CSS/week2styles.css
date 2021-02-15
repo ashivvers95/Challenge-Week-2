@@ -101,6 +101,11 @@ header nav ul li a:hover {
   color: var(--first-color);
 }
 
+.hire-me img{
+  width: 18%;
+  height: 18%;
+}
+
 .intro {
   background-color: var(--first-color);
 }
@@ -120,6 +125,7 @@ header nav ul li a:hover {
   text-align: justify;
   margin: auto;
   width: 80%;
+  font-size: 2.0vw;
 }
 
 .works h2 {
@@ -169,6 +175,7 @@ header nav ul li a:hover {
   text-align: justify;
   margin: auto;
   width: 80%;
+  font-size: 1.5vw;
 }
 
 
